@@ -11,6 +11,8 @@ Você deverá desenvolver um blog. Para isso, queremos que você desenvolva uma 
 - `/posts/{id}` - [GET] - esta rota deve retornar a postagem do ID especificado com todos os seus dados  (requer autenticação);
 - `/posts/{id}` - [DELETE] - esta rota deve deletar a postagem do ID especificado.
 
+Crie o seu projeto como um repositório público do github e nos envie o link.
+
 **Observações:**
 - A API deve retornar e receber os dados em formato JSON
 - Você pode utilizar o banco de dados de sua preferência (relacional ou não relacional).
