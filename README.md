@@ -29,7 +29,7 @@
 <h3>Cloning</h3>
 
 ```bash
-git clone your-project-url-in-github
+git clone https://github.com/jpfabiano/desafio-back-end-junior.git
 ```
 
 
@@ -38,15 +38,15 @@ git clone your-project-url-in-github
 ​
 | route                                     | description                                          
 |-------------------------------------------|--------------------------------
-| <kbd>POST /auth/register</kbd>            | Registra um novo usuário.<a href = "#post-auth-register">Exemplo</a>
-| <kbd>POST /auth/login</kbd>               | Loga o usuário, dando um token para ele.<a href = "#post-auth-login">Exemplo</a>
-| <kbd>POST /posts</kbd>                    | Publica um novo Post.<a href = "#post-posts">Exemplo</a>
-| <kbd>GET /posts/desc</kbd>                | Retorna uma lista com todos os Posts em ordem decrescente.<a href = "#get-posts-desc">Exemplo</a>
-| <kbd>GET /posts/cresc</kbd>               | Retorna uma lista com todos os Posts em ordem crescente.<a href = "#get-posts-cresc">Exemplo</a>
-| <kbd>GET /posts/user</kbd>                | Retorna uma lista com todos os Posts do usuário que fez a requisição.<a href = "#get-posts-user">Exemplo</a>
-| <kbd>GET /posts/user/{idPostagem}</kbd>   | Retorna o Post que contem o id fornecido.<a href = "#get-posts-id">Exemplo</a>
-| <kbd>PUT /posts/{idPostagem}</kbd>        | Edita o Post do id fornecido.<a href = "#put-posts-id">Exemplo</a>
-| <kbd>DELETE /posts/{idPostagem}</kbd>     | Deleta o Post do id fornecido.<a href = "#delete-posts-id">Exemplo</a>
+| <kbd>POST /auth/register</kbd>            | Registra um novo usuário - <a href = "#post-auth-register"> Exemplo</a>
+| <kbd>POST /auth/login</kbd>               | Loga o usuário, dando um token para ele - <a href = "#post-auth-login"> Exemplo</a>
+| <kbd>POST /posts</kbd>                    | Publica um novo Post - <a href = "#post-posts"> Exemplo</a>
+| <kbd>GET /posts/desc</kbd>                | Retorna uma lista com todos os Posts em ordem decrescente - <a href = "#get-posts-desc"> Exemplo</a>
+| <kbd>GET /posts/cresc</kbd>               | Retorna uma lista com todos os Posts em ordem crescente - <a href = "#get-posts-cresc"> Exemplo</a>
+| <kbd>GET /posts/user</kbd>                | Retorna uma lista com todos os Posts do usuário que fez a requisição - <a href = "#get-posts-user"> Exemplo</a>
+| <kbd>GET /posts/user/{idPostagem}</kbd>   | Retorna o Post que contem o id fornecido - <a href = "#get-posts-id"> Exemplo</a>
+| <kbd>PUT /posts/{idPostagem}</kbd>        | Edita o Post do id fornecido - <a href = "#put-posts-id"> Exemplo</a>
+| <kbd>DELETE /posts/{idPostagem}</kbd>     | Deleta o Post do id fornecido - <a href = "#delete-posts-id"> Exemplo</a>
 
 
 <h3 id="post-auth-register">POST /auth/register</h3>
